@@ -1,0 +1,56 @@
+CREATE TABLE Animals (
+
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+
+    Name NVARCHAR(200),
+
+    Description NVARCHAR(200),
+
+    Category NVARCHAR(200),
+
+    Area NVARCHAR(200)
+
+);
+
+ 
+INSERT INTO Animals (Name, Description, Category, Area) VALUES
+
+('Lion', 'A large carnivorous wildcat', 'Mammal', 'Africa'),
+
+('Tiger', 'A fierce and large wildcat known for its power', 'Mammal', 'Asia'),
+
+('Elephant', 'Largest of all land mammals', 'Mammal', 'Africa'),
+
+('Giraffe', 'Tallest of all terrestrial animals', 'Mammal', 'Africa'),
+
+('Blue Whale', 'Largest animal living', 'Mammal', 'Oceans'),
+
+('Bald Eagle', 'Bird of prey found in North America', 'Bird', 'North America'),
+
+('Kangaroo', 'Hopping animal from Australia', 'Mammal', 'Australia'),
+
+('Panda', 'Black and white bear known for its love of bamboo', 'Mammal', 'Asia'),
+
+('Komodo Dragon', 'Large species of lizard found in Indonesia', 'Reptile', 'Indonesia'),
+
+('Polar Bear', 'A large bear species found in the Arctic', 'Mammal', 'Arctic'),
+
+('Python', 'One of the largest species of snakes', 'Reptile', 'Asia/Africa'),
+
+('Penguin', 'A flightless bird that swims', 'Bird', 'Antarctica'),
+
+('Shark', 'A large water predator known for its sharp teeth', 'Fish', 'Oceans'),
+
+('Dolphin', 'An intelligent aquatic mammal', 'Mammal', 'Oceans'),
+
+('Moose', 'Largest species in the deer family', 'Mammal', 'North America/Europe'),
+
+('Crocodile', 'Large aquatic reptile', 'Reptile', 'Africa/Asia/Australia'),
+
+('Owl', 'Night bird known for its vision', 'Bird', 'Worldwide'),
+
+('Siberian Husky', 'A medium-sized working dog breed', 'Mammal', 'Siberia'),
+
+('Cheetah', 'The fastest land animal', 'Mammal', 'Africa'),
+
+('Red Fox', 'Small, cunning canine found worldwide', 'Mammal', 'Worldwide');
